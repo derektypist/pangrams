@@ -59,6 +59,6 @@ Written by me.
 
 ### Acknowledgements
 
-- [Bootstrap](https://getboostrap.com)
+- [Bootstrap](https://getbootstrap.com)
 - [Geeks for Geeks](https://www.geeksforgeeks.org)
 - [Wikipedia](https://en.wikipedia.org/wiki/Pangram)
