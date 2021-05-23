@@ -8,8 +8,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Set Up Header -->
+    <header class="text-center container-fluid">
+        <h1>Pangrams</h1>
+    </header>
+
+    <section class="container-fluid">
+        <!-- Set Up Form -->
+        <form>
+            <!-- Set Up Text Area -->
+            <div class="mb-3">
+                <label for="mytext" class="form-label">Text (Required)</label>
+                <textarea class="form-control" rows="5" id="mytext"></textarea>
+            </div>
+
+            <!-- Set Up and Center Buttons -->
+            <div class="d-grid gap-2 col-4 mt-2 mx-auto">
+                <button type="button" onclick="getTextInfo()" class="btn btn-info">Submit</button>
+                <button type="reset" onclick="clearInfo()" class="btn btn-warning">Reset</button>
+            </div>
+            
+        </form>
+    </section>
     
 </body>
 </html>
