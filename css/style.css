@@ -2,3 +2,10 @@
 body {
     font-family: "Roboto", Arial, Verdana, sans-serif;
 }
+
+/* Text Information */
+#txtinfo {
+    font-size: 1.4rem;
+    padding: 10px;
+    color: #009B77;
+}
