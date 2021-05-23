@@ -4,7 +4,7 @@ function getTextInfo() {
     // Get the value of the textarea
     let myText = document.getElementById("mytext").value;
     // Check if Text is Valid
-    if (myText.length === 0) {
+    if (myText.length == 0) {
         txt += `Invalid Input.  Text cannot be empty.`;
     } else {
         // Display Entered Text
