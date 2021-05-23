@@ -8,7 +8,8 @@ function getTextInfo() {
         txt += `Invalid Input.  Text cannot be empty.`;
     } else {
         // Display Entered Text
-        txt += `You have entered the text ${myText}<p>`;
+        txt += `You have entered the text: <p>`;
+        txt += `${myText}<p>`;
         // Check if the text is a pangram
         if (isPangram(myText)) {
             txt += `This text is a pangram`;
