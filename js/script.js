@@ -21,3 +21,28 @@ function getTextInfo() {
     }
 
 }
+
+// Function to check if the text is a pangram
+function isPangram(str) {
+    // Convert str to lower case
+    str = str.toLowerCase();
+
+    // Set Up Alphabet
+    let alphabet = 'abcdefghijklmnopqrstuvwxyz';
+
+    // Loop through every letter in the alphabet
+    for (let c of alphabet) {
+        /* 
+            Check if the text includes the letter.
+            If not, return false.
+
+            For example, if torch does not include
+            the letter a, return false
+        */
+       if (str.includes(c)===false) {
+           return false;
+       }
+    }
+
+    return true;
+}
