@@ -20,6 +20,8 @@ As a user, I expect a placeholder on the textarea.
 
 As a user, if I submit the text 'The quick brown fox jumps over the lazy dog', I expect this text to be a pangram.
 
+As a user, if I submit the text 'ABCDEFGHIJKLMNOPQRSTUVWXYZ;, I expect this text to be a pangram.
+
 As a user, if I submit the text 'torch', I expect this text is not a pangram.
 
 ## Information Architecture
@@ -37,3 +39,26 @@ If the function returns true, it will display `This text is a pangram`, otherwis
 
 This project checks for invalid input.  If the submitted text is empty, a message `Invalid Input.  Text cannot be empty.` appears.  Assuming that the input is valid, I expect the text entered to be displayed (before converting to lower case).  Displays the message `This text is a pangram` or `This text is not a pangram`.
 
+## Technologies
+
+This project uses Bootstrap 5.0.1, HTML5, CSS3, JavaScript and Google Fonts.
+
+## Testing
+
+Ensure that all user stories have been met.  For example, if I submit empty text, I expect the invalid input message to be displayed.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/pangrams) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Bootstrap](https://getboostrap.com)
+- [Geeks for Geeks](https://www.geeksforgeeks.org)
+- [Wikipedia](https://en.wikipedia.org/wiki/Pangram)
